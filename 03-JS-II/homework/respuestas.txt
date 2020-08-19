@@ -1,0 +1,4 @@
+* for: Es una sentecia (palabra clave ) del lenguaje de programacion que muestra una condicion si esta se cumple se ejecuta el resto del codogi
+* `&&`: es un operador logico que significa Y se usa para poner doso mas condiciones que se tienen que cumplir si o si ejem: si llueve && hace frio no salgo(debe llover y hacer frio para que no salga)
+*`||`:s un operador logico que significa o se usa para poner dos o mas condiciones y el codigo se ejecuta si se cumple alguna de las condiciones ejemplo si llueve o hace frio no salgo (basta que se cumpla  una sola de las condiciones para no salir)
+* `!`: este operador logico significa not y se usa para negar ejem si (no lleve) yo salgo
