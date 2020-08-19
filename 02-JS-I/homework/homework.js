@@ -35,31 +35,32 @@ function suma(x, y) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
-    var resultado = x + y;
-    return resultado;
+    return x + y;
+
 }
 
 function resta(x, y) {
     // Resta "x" de "y" y devuelve el valor
     // Tu código:
-    var resultado = x - y;
-    return resultado;
+
+    return x - y;
 }
 
 function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
-    var resultado = x * y;
-    return resultado;
+
+    return x * y;
 }
 
 function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
-    var resultado = x / y;
+
     if (y != 0) {
-        return resultado;
+        return x / y;
     }
+
 }
 
 
@@ -78,11 +79,9 @@ function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (str1.length == str2.length) {
-        return true;
-    } else {
-        return false;
-    }
+
+    return (str1.length === str2.length);
+
 }
 
 
@@ -103,7 +102,7 @@ function mayorQueCincuenta(num) {
     // De lo contrario, devuelve "false"
     // Tu código:
     if (num > 50) {
-        return tr0ue;
+        return true;
     } else {
         return false;
     }
@@ -113,15 +112,15 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
     // Obten el resto de la división de "x" entre "y"
     // Tu código:
-    var resultado = x % y;
-    console.log(resultado);
+
+    return x % y;
 }
 
 function esPar(num) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (num / 2 == 0) {
+    if (num % 2 === 0) {
         return true;
     } else {
         return false;
@@ -132,7 +131,7 @@ function esImpar(num) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (num / 2 == 0) {
+    if (num % 2 === 0) {
         return false;
     } else {
         return true;
@@ -175,8 +174,8 @@ function agregarSimboloExclamacion(str) {
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
-    var cad = str + " ! ";
-    return cad;
+
+    return str + ' !';
 
 }
 
@@ -185,21 +184,22 @@ function combinarNombres(nombre, apellido) {
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
     var nomApell = nombre + " " + apellido;
+    return nomApell;
 }
 
 function obtenerSaludo(nombre) {
     // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
     // "Martin" -> "Hola Martin!"
     // Tu código:
-    var saludo = "Hola " + nombre + " !";
-    return saludo;
+
+    return 'Hola ' + nombre + '!';
 
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
     // Retornar el area de un cuadrado teniendo su altura y ancho
     // Tu código:
-    var area = Math.pow(alto, 2) + Math.pow(ancho, 2);
+    var area = alto + ancho;
     return area;
 }
 
@@ -235,9 +235,9 @@ module.exports = {
     combinarNombres,
     obtenerSaludo,
     obtenerAreaRectangulo,
-};
-agregarSimboloExclamacion,
-combinarNombres,
-obtenerSaludo,
-obtenerAreaRectangulo,
+
+    agregarSimboloExclamacion,
+    combinarNombres,
+    obtenerSaludo,
+    obtenerAreaRectangulo,
 };
