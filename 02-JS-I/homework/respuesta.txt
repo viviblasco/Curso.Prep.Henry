@@ -1,0 +1,11 @@
+variables: son lugares "cajitas" en donde vamos a guardar datos que luego usaremos. En estos lugares se guardan tambien los datos que los usuarios ingresan al sistema.
+
+strings: son cadenas de caracteres esto pueden ser numeros , letras y todo tipo de caracteres van entre comillas.
+
+funciones: son sentencias que cumplen una accion, pequeñas partes de programas que hacen una accion en particular se usa para no repestir tanto codigo o para realizar una tarea especifica.
+puede o no recibir argumentos estos son variables y/o strings tambien puede ser otra funcion que pasa el sistema o el usuario.
+estas funciones pueden retonar un dato o no.
+
+declaraciones: es donde se hace la presentacion de las variable que se van a utilizar se declaran con una palabra reservada  var o let hay distintos tipos de ellas tambien se declaran las funciones
+
+valores booleanos: estos valores responden a una condicion que da por respuesta true o falso que es falso o verdadero
