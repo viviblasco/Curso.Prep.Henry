@@ -1,0 +1,5 @@
+los arreglos array son colecciones de datos puestos de manera ordenada.
+son como cajitas tienen un indice que comienza de cero 
+por el indice es la manera de acceder a ellos
+array[10]=[1,2,"rosa","verde",null,5,18,"soga","pata"];
+son 10 elementos pero su indice comienza en 0 por lo cual el elemento ultimo es 9 

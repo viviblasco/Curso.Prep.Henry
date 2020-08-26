@@ -1,0 +1,15 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+los objetos estan formados por propiedades y metodos propiedadesson caracteristics y metodos acciones que hacemos con esas cracteristicas.
+los array son objetos a los que se accede por un indice numero .A los objeto se accede por medio de sus propiedades(el nombre)
+el bucle for...in se utuliza para repetir una accion Esto reduce el codigo y el tiempo. a diferencia del bucle for este sirve para objetos porque se le pasa una clave y el objeto. 
+
+
+la notacion de puntos es mucho mas facil y rapida se usa poniendo el objeto.propiedades
+la notacion de corchetes es la que usamos con los array objeto[clave]
