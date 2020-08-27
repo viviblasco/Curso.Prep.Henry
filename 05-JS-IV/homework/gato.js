@@ -5,14 +5,15 @@ function crearGato(nombre, edad) {
     // Devuelve el objeto
     // Tu código:
     var gato = {
-        nombre = nombre,
+        nombre: nombre,
         edad: edad,
         meow: function() {
-            return 'Meow';
+            'Mi nombre es ' + this.nombre + 'tengo' + this.edad + ' ... Meow!'
+
+
         }
     };
     return gato;
 }
-
-
-console.log(crearGato(minina, 5));
+const minina = new crearGato(minina, 5);
+console.log(minina);

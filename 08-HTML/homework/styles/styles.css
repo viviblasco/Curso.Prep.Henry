@@ -1,0 +1,37 @@
+body {
+    background-color: burlywood;
+    display: table;
+    justify-content: center;
+    margin-block: 100px;
+    padding-block: 100px;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: khaki;
+    padding-block: 50 px;
+    border-block-color: black;
+    border-block-end-style: double;
+    justify-content: center;
+}
+
+#spanId {
+    font-size: 18px;
+    margin-block: 50px;
+}
